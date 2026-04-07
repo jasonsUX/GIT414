@@ -143,6 +143,7 @@ footer{
 
 }
 
+/* medium */
 @media screen and (min-width: 601px) and (max-width: 750px){
     header{
         display: block;
@@ -168,5 +169,10 @@ footer{
         text-align: left;
     }
 
+}
+
+/* large */
+@media screen and (min-width: 751px) and (max-width: 1440){
+    
 }
 
