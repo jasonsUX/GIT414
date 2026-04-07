@@ -172,7 +172,20 @@ footer{
 }
 
 /* large */
-@media screen and (min-width: 751px) and (max-width: 1440){
-    
+@media screen and (min-width: 751px) and (max-width: 1440px){
+    h1{
+        font-size: 24px;
+        text-wrap: nowrap;
+        margin-right: 1rem;
+    }
+
+    nav li{
+        font-size: 18px;
+        text-wrap: nowrap;
+    }
+
+    header p{
+        margin-right: 1rem;
+    }
 }
 
